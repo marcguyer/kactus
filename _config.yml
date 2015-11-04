@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Marc Guyer
+description: Ramblings - Mostly Code - Occasionally Useful
+meta_description: "Marc Guyer | Ramblings - Mostly Code - Occasionally Useful"
 
 aboutPage: true
 
@@ -9,17 +9,21 @@ highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+domain_name: 'http://marc.guyer.me'
+google_analytics: 'UA-69610431-1'
+disqus: true
+disqus_shortname: 'marcguyer'
+
+gems:
+  - jekyll-mentions
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'http://marc.guyer.me'
+author:         'Marc Guyer'
+authorTitle:    'Software Architect'
+authorTwitter:  'marcguyer'
 
-permalink:       /:year/:title/
+permalink:       /:title/
 
 defaults:
     -

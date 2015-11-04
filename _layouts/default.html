@@ -5,8 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <title>{{ site.name }} | {% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}</title>
   <link rel="shortcut icon" href="{{ site.baseurl }}assets/images/favicon.ico">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="{{ site.baseurl }}rss.xml">
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/highlight.css">
@@ -39,6 +40,3 @@
   </script>
 </body>
 </html>
-
-
-

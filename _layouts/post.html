@@ -14,9 +14,9 @@ archive: true
 </article>
 <footer id="post-meta" class="clearfix">
     <a href="http://twitter.com/{{ site.authorTwitter }}">
-        <img class="avatar" src="{{ site.baseurl }}assets/images/avatar.png">
+        <img class="avatar" src="http://www.gravatar.com/avatar/65a09071cad77a42b1421c8119352229?s=200">
         <div>
-            <span class="dark">{{ site.author }}</span>
+            <span class="dark">{{ site.author }} | {{ site.authorTitle }}</span>
             <span>{{ site.description }}</span>
         </div>
     </a>
@@ -45,6 +45,3 @@ archive: true
         {% endfor %}
     </ul>
 {% endif %}
-
-
-

@@ -3,13 +3,34 @@
         <header id="header">
         {% if site.aboutPage %}
             <a href="{{ site.baseurl }}about">
-                <img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/avatar.png"/>
+                <img id="avatar" class="2x" src="http://www.gravatar.com/avatar/65a09071cad77a42b1421c8119352229?s=200"/>
             </a>
         {% else %}
-            <img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/avatar.png"/>
+            <img id="avatar" class="2x" src="http://www.gravatar.com/avatar/65a09071cad77a42b1421c8119352229?s=200"/>
         {% endif %}
-            <h1>{{ site.author }}</h1>
+            <h1>{{ site.author }} | {{ site.authorTitle }}</h1>
             <h2>{{ site.description }}</h2>
+            <h2>
+              <a href="http://github.com/marcguyer">
+                <span class="fa fa-github"></span>
+              </a>
+              &nbsp;&nbsp;
+              <a href="http://stackoverflow.com/users/1774759/marcguyer">
+                <span class="fa fa-stack-overflow"></span>
+              </a>
+              &nbsp;&nbsp;
+              <a href="http://twitter.com/marcguyer">
+                <span class="fa fa-twitter"></span>
+              </a>
+              &nbsp;&nbsp;
+              <a href="http://facebook.com/marcguyer">
+                <span class="fa fa-facebook"></span>
+              </a>
+              &nbsp;&nbsp;
+              <a href="https://www.linkedin.com/in/marcguyer">
+                <span class="fa fa-linkedin"></span>
+              </a>
+            </h2>
         </header>
     </section>
 </div>
